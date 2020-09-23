@@ -1,0 +1,20 @@
+{
+	"title": "Blurb",
+	"description": "It's blurby.",
+	"confirmContents": true,
+	"contents": [
+		"Installation",
+		"Usage",
+		"License",
+		"Contributing",
+		"Tests",
+		"Questions"
+	],
+	"installation": "Type run.",
+	"usage": "Type run, then hit buttons.",
+	"license": "MIT",
+	"contributing": "You can't.",
+	"tests": "No.",
+	"github": "jeffwjohn",
+	"email": "j@simian.com"
+}
