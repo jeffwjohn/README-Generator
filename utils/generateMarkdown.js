@@ -19,23 +19,30 @@ ${badge}
 ${description}
     
 ## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-## Installation
+### Installation
 ${installation}
-## Usage
+### Usage
 ${usage}
-## License
+### License
 ${license}
-## Contributing
+### Contributing
 ${contributing}
-## Tests
+### Tests
 ${tests}
-## Questions
+### Questions
 For additional information, please refer to the following contact links:
-### GitHub
+#### GitHub
 https://github.com/${github}
-### Email
+#### Email
 ${email}
+
 `;
 }
 
