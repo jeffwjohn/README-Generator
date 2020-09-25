@@ -1,8 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
-// const generateMd = require('./utils/md-template');
-
 
 var data = {
     title: "",
@@ -145,20 +143,7 @@ const questions = [{
     }
 ];
 
-// ]).then(data => {
-//     console.log(data);
-//     fs.writeFile('text.json', JSON.stringify(data, null, '\t'), function (err) {
-
-//         if (err) {
-//             return console.log(err);
-//         }
-//     });
-// });
-
-// };
-
 // function to write README file
-// function writeToFile(fileName, data) {}
 
 const writeReadme = (fileName, data) => {
     fs.writeFile(fileName, generateMarkdown(data), (err) => {
@@ -187,11 +172,5 @@ function init() {
     })
 };
 
-// // function call to initialize program
+// function call to initialize program
 init();
-
-// promptUser().then(data => {
-//     const pageMd = generateMd(data);
-
-
-// });
