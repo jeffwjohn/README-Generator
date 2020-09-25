@@ -86,7 +86,7 @@ const questions = [{
         type: 'list',
         name: 'license',
         message: 'What type of license does your project have? (Required)',
-        choices: ['GNU General Public License (GPL)', 'Apache', 'Microsoft Public Licenses (Ms-PL)', 'Berkeley Software Distribution (BSD)', 'Common Development and Distribution License (CDDL)', 'Eclipse Public License (EPL)', 'MIT']
+        choices: ['GNU General Public License (GPL)', 'Apache', 'Microsoft Public Licenses (Ms--PL)', 'Berkeley Software Distribution (BSD)', 'Common Development and Distribution License (CDDL)', 'Eclipse Public License (EPL)', 'MIT']
 
     },
     {
