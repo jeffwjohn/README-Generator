@@ -1,19 +1,36 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
 
-  let title = "## Title";
-  let description = "## Description";
-  let toc = "## Table of Contents"
-  let installation = "## Installation";
-  let usage = "## Usage";
-  let license = "## License";
-  let contribution = "## Contribution";
-  let test = "## Test";
-  let github = "## GitHub";
-  let email = "## Email";
+  var title = data.title;
+  var description = data.description;
+  let installation = data.installation;
+  let usage = data.usage;
+  let license = data.license;
+  let contributing = data.contributing;
+  let tests = data.tests;
+  let github = data.github;
+  let email = data.email;
 
-  return `# ${data.title}
+  return `# ${title}
 
+${description}
+    
+# Table of Contents
+
+## Installation
+${installation}
+## Usage
+${usage}
+## License
+${license}
+## Contributing
+${contributing}
+## Tests
+${tests}
+## GitHub
+${github}
+## Email
+${email}
 `;
 }
 
