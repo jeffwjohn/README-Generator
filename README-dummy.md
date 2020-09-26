@@ -1,7 +1,7 @@
 # README Generator
 ![](https://img.shields.io/badge/License-MIT-blue.svg)
 ## Description 
-README Generator is an interactive, Node.js based application that dynamically builds README.md files with user input obtained  via the npm module inquirer. README-Generator assists users with creating professional README.md files by dynamically generating a table of contents with clickable navigation, an attractive badge representing the user-chosen license, and optional sections dependant on user choice and input.
+README Generator is an interactive, Node.js based application that dynamically builds README.md files (named "README-generated.md") with user input obtained via the npm module inquirer. README Generator assists users with creating professional README.md files by dynamically generating a table of contents with clickable navigation, an attractive badge representing the user-chosen license, and optional sections dependent on user choice and input.
 
 ## Table of Contents
   * [Installation](#installation) 
@@ -13,7 +13,7 @@ README Generator is an interactive, Node.js based application that dynamically b
  ### Installation
   Clone or fork the code from the README-Generator repository on GitHub. Open the code in a standard code editing application, such as VS Code. 
  ### Usage
- Open an intregrated terminal and type the command "node index.js." Follow the prompts to generate your custom README.md file!
+ Open an intregrated terminal and type the command "node index.js." Follow the prompts to generate your custom README.md file! Your custom file will be named "README-generated.md" to distinguish it from the application's native README.md file. 
 ### Contributing
 README.md is an open source project, and anyone is encourged to contribute by cloning or forking the code and working to improve its function and versatility. 
 

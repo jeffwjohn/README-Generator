@@ -47,8 +47,7 @@ const generateMarkdown = data => {
 
     mainMarkdown +=
       `
- ### License 
- ${license}`
+ ### License: ${license}`
   };
   if (contributing) {
     table +=
@@ -86,7 +85,6 @@ ${tests}
   if(github) {
     mainMarkdown +=
     `
-##### GitHub
 https://github.com/${github}
     `
   };
