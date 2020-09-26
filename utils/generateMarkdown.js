@@ -23,9 +23,10 @@ const generateMarkdown = data => {
   if (installation) {
     table +=
       `
-  * [Installation](#installation)`
+* [Installation](#installation)`
 
-    mainMarkdown += `### Installation
+    mainMarkdown += `
+### Installation
   ${installation}`
 
   };
@@ -33,21 +34,21 @@ const generateMarkdown = data => {
   if (usage) {
     table +=
       ` 
- * [Usage](#usage)`
+* [Usage](#usage)`
 
     mainMarkdown +=
       `
- ### Usage
+### Usage
  ${usage}`
   };
   if (license) {
     table +=
       ` 
- * [License](#license)`
+* [License](#license)`
 
     mainMarkdown +=
       `
- ### License
+### License
   ${license}`
   };
   if (contributing) {
@@ -80,7 +81,6 @@ ${tests}
     mainMarkdown +=
       `
 ### Questions
-
     `
   };
   if(github) {
