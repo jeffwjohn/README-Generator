@@ -12,12 +12,13 @@ README Generator is an interactive, Node.js based application that dynamically b
 * [Questions](#questions)
 
  ### Installation
-   Clone or fork the code from the README-Generator repository on GitHub. Open the code in a standard code editing application, such as VS Code.
+  Clone or fork the code from the README-Generator repository on GitHub. Open the code in a standard code editing application, such as VS Code.
  ### Usage
-  Open an intregrated terminal and type the command "node index.js." Follow the prompts to generate your custom README.md file! Your custom file will be named "README-generated.md" to distinguish it from the application's native README.md file.
- ### License: MIT
+ Open an intregrated terminal and type the command "node index.js." Follow the prompts to generate your custom README.md file! Your custom file will be named "README-generated.md" to distinguish it from the application's native README.md file.
+ ### License
+  MIT
 ### Contributing
-README.md is an open source project, and anyone is encourged to contribute by cloning or forking the code and working to improve its function and versatility.
+README Generator is an open source project, and anyone is encourged to contribute by cloning or forking the code and working to improve its function and versatility.
 
 ### Tests
 Try skipping questions that say they are required. Try answering both yes and no to the confirmation prompts to ensure the expected outcome is obtained. Try skipping optional questions and make sure their respective categories do not show up in the dynamically created table of contents.
