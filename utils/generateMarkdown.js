@@ -15,15 +15,7 @@ const generateMarkdown = data => {
   let badge = `![](https://img.shields.io/badge/License-${licenseCode}-blue.svg)`
   let table = " "
   let mainMarkdown = " ";
-  // const toc = {
-  //   installation: installation,
-  //   usage: usage,
-  //   contributing: contributing,
-  //   test: tests,
-  //   github: github,
-  //   email: email
-  // }
-
+ 
   if (confirmContents) {
     table = "## Table of Contents"
   };
@@ -48,7 +40,16 @@ const generateMarkdown = data => {
  ### Usage
  ${usage}`
   };
+  if (license) {
+    table +=
+      ` 
+ * [License](#license)`
 
+    mainMarkdown +=
+      `
+ ### License 
+ ${license}`
+  };
   if (contributing) {
     table +=
       ` 
@@ -79,7 +80,7 @@ ${tests}
     mainMarkdown +=
       `
 ### Questions
-##### For additional information, please refer to the following contact links:
+##### Interested in other projects from this developer? Visit the following GitHub profile:
     `
   };
   if(github) {
@@ -92,7 +93,7 @@ https://github.com/${github}
   if(email) {
     mainMarkdown +=
     `
-##### Email
+##### Send any questions to the following email address:
 ${email}
     `
   };
