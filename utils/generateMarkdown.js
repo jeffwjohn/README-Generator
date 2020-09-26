@@ -80,12 +80,13 @@ ${tests}
     mainMarkdown +=
       `
 ### Questions
-##### Interested in other projects from this developer? Visit the following GitHub profile:
+
     `
   };
   if(github) {
     mainMarkdown +=
     `
+##### Interested in other projects from this developer? Visit the following GitHub profile:
 https://github.com/${github}
     `
   };
