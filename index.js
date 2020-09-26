@@ -110,9 +110,8 @@ const writeReadme = (fileName, data) => {
     });
 }
 
-
 // // function to initialize program
-function init() {
+const init = () => {
     inquirer.prompt(questions).then(response => {
 
         data.title = response.title;

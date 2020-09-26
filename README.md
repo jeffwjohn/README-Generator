@@ -1,7 +1,7 @@
-# Title
+# Big One
 ![](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20(GPL)-blue.svg)
 ## Description 
-Huge
+It's huge!
 
 ## Table of Contents
   * [Installation](#installation) 
@@ -11,22 +11,22 @@ Huge
 * [Questions](#questions)
 
  ### Installation
-  Carefully
+  Carefully.
  ### Usage
- With fun
+ With love.
 ### Contributing
-love
+Go easy on the pepper.
 
 ### Tests
-nah
+Slowly.
 
 ### Questions
 ##### For additional information, please refer to the following contact links:
     
 ##### GitHub
-https://github.com/jeffwjohln
+https://github.com/jeffwjohn
     
 ##### Email
-jeeber
+jeffwjohn@yahoo.com
     
     

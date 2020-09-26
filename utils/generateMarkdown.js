@@ -1,5 +1,5 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+const generateMarkdown = data => {
 
   let title = data.title;
   let description = data.description;
