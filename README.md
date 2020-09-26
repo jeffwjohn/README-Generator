@@ -15,7 +15,8 @@ README Generator is an interactive, Node.js based application that dynamically b
    Clone or fork the code from the README-Generator repository on GitHub. Open the code in a standard code editing application, such as VS Code.
  ### Usage
   Open an intregrated terminal and type the command "node index.js." Follow the prompts to generate your custom README.md file! Your custom file will be named "README-generated.md" to distinguish it from the application's native README.md file.
- ### License: MIT
+ ### License
+ MIT
 ### Contributing
 README.md is an open source project, and anyone is encourged to contribute by cloning or forking the code and working to improve its function and versatility.
 
