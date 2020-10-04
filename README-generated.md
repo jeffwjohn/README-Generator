@@ -1,7 +1,7 @@
-# Project
-![](https://img.shields.io/badge/License-Common%20Development%20and%20Distribution%20License%20(CDDL)-blue.svg)
+# Team Profile Generator
+![](https://img.shields.io/badge/License-MIT-blue.svg)
 ## Description 
-This app makes a README file.
+Team Profile Generator is an interactive, Node.js-driven application that captures user input via npm Inquirer. The data is then harnessed to dynamically render development team data to an html page linked to a developer-provided, default stylesheet.
 
 ## Table of Contents
 * [Installation](#installation) 
@@ -13,16 +13,16 @@ This app makes a README file.
 
  
 ### Installation
-  Clone the code.
+  Clone or fork the code from the README-Generator repository on GitHub. Open the code in a standard code editing application, such as VS Code.
 ### Usage
- Type the command "node index.js" in the terminal. Follow the prompts.
+ Open an intregrated terminal and type the command "node index.js." Follow the prompts to generate your custom team profile page!
 ### License
-  Common Development and Distribution License (CDDL)
+  MIT
 ### Contributing
-Be nice.
+Generator is an open source project, and anyone is encourged to contribute by cloning or forking the code and working to improve its function and versatility.
 
 ### Tests
-Try not answering required questions. 
+Try skipping questions that say they are required. Try answering both yes and no to the confirmation prompts to ensure the expected outcome is obtained. Try skipping optional questions and make sure their respective categories do not show up in the dynamically created table of contents.
 
 ### Questions
     
